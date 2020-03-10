@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+import "github.com/google/uuid"
+
 func main() {
-	fmt.Println("Hello world!")
+	id := uuid.New().String()
+	fmt.Println("UUID:" + id)
 }
