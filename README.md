@@ -13,3 +13,7 @@ go: modules disabled inside GOPATH/src by GO111MODULE=auto; see 'go help modules
 ➜  gomodule git:(master) ✗ go mod init
 
 go: creating new go.mod: module github.com/perry14/gomodule
+
+Mac下设置代理
+
+export GOPROXY=https://goproxy.cn
